@@ -1,0 +1,47 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+header h1{
+  font-size: 5vh;
+  text-align: center;
+  background-image: url("http://www.winnetkaanimalhospital.com/wp-content/uploads/2016/08/Puppy-and-Kitten.jpg");
+  background-size: 30vh;
+  background-repeat: no-repeat;
+  background-position: left, center;
+}
+
+.puppy {
+  width: 350px;
+  float: left;
+  margin: 5px;
+  /* border: 2px solid black; */
+}
+.puppy p {
+  border: 1px solid black;
+}
+img {
+  width: 350px;
+  height: 350px;
+  border: 3px solid black;
+}
